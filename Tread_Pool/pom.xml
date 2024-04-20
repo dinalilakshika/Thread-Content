@@ -4,9 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
-    <artifactId>Thread-Content</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>Tread_Pool</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -14,13 +12,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <packaging>pom</packaging>
-    <modules>
-        <module>Extend-Thread-Class</module>
-        <module>Implement-Thered-Interface</module>
-        <module>Lamda-Expection</module>
-        <module>example</module>
-        <module>inter_thred_commiunication</module>
-        <module>Tread_Pool</module>
-    </modules>
+    <parent>
+        <artifactId>Thread-Content</artifactId>
+        <groupId>org.example</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 </project>
